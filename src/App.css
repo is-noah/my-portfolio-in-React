@@ -28,6 +28,7 @@ body{
   color: white;
   font-family: Consolas;
   background-color: #180540;
+  border: 2px solid black;
 }
 /*No se porque cojones en el flex de arriba no lo quiso hacer con el parrafo*/
 .App-footer p{
@@ -50,6 +51,7 @@ body{
 }
 .icon svg{
   margin: 5px;
+  color: white;
 }
 .App-mySection{
   background-image: url(/src/components/img/1218911.jpg);
@@ -63,7 +65,10 @@ body{
   font-family: Consolas;
   min-height: 60vh;
   border: 2px solid black;
-  margin-bottom: 1px;
+}
+.hello{
+  margin-left: 15px ;
+  background-color: rgba(0, 0, 0, 0.46);
 }
 .myPhoto{
   display:flex ;
@@ -78,12 +83,23 @@ body{
   cursor: pointer;
   transition: ease-out 0.5s;
 }
+.myPhoto img:hover{
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
+  border: 2px solid aqua;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+}
 .linkGithub{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
   font-size: 60px;
+  color: white;
+}
+.linkGithub svg{
   color: white;
 }
 .App-Skills{
@@ -93,9 +109,7 @@ body{
   justify-content: center;
   background-color: #180540;
   color: white;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: 2px solid black;
+  margin-top: 1px;
   margin-bottom: 1px;
 }
 .skillsByNoah{
@@ -106,5 +120,6 @@ body{
   font-size: 60px;
 }
 .skillsByNoah svg{
+  color: white;
   margin: 5px;
 }
