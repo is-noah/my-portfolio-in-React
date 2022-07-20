@@ -14,7 +14,7 @@ body{
   margin-top: 0.5px;
   font-size: small;
 }
-.App-header h1 {
+.App-header h1{
   margin-left: 15px;
   font-size: 2rem;
   color: aqua;
@@ -40,6 +40,19 @@ body{
   justify-content:center;
   align-items: center;
 }
+.developer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Consola;
+  flex-direction: row;
+}
+.developer svg{
+  margin-left: 5px;
+  font-size: 30px;
+  color: gray;
+}
+
 .icon{
   display: flex;
   align-items: center;

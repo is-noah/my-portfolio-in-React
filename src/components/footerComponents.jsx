@@ -6,6 +6,7 @@ import {
   faLinkedinIn,
   faInstagram,
   faFacebook,
+  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 export const _footerComponents = () => {
   return (
@@ -50,6 +51,10 @@ export const _footerComponents = () => {
           >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
+        </div>
+        <div className="developer">
+          <p>Powerd By Using </p>
+          <FontAwesomeIcon icon={faReact} />
         </div>
       </footer>
     </div>
