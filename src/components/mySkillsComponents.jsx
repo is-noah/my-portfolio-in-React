@@ -18,7 +18,7 @@ export const _mySkillsComponents = () => {
         web applications with quality and unique styles.
       </p>
       <div className="skillsByNoah">
-        <FontAwesomeIcon icon={faReact} />
+        <FontAwesomeIcon icon={faReact}/>
         <FontAwesomeIcon icon={faNodeJs} />
         <FontAwesomeIcon icon={faJs} />
         <FontAwesomeIcon icon={faHtml5} />
