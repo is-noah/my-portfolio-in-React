@@ -1,0 +1,110 @@
+body{
+  background-color: #210758;
+}
+.spameando{
+  color: aqua;
+}
+.App-header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  background-color: #180540;
+  margin-bottom: 1px;
+  margin-top: 0.5px;
+  font-size: small;
+}
+.App-header h1 {
+  margin-left: 15px;
+  font-size: 2rem;
+  color: aqua;
+}
+.App-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+  font-family: Consolas;
+  background-color: #180540;
+}
+/*No se porque cojones en el flex de arriba no lo quiso hacer con el parrafo*/
+.App-footer p{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.App-footer h3{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 40px;
+}
+.icon svg{
+  margin: 5px;
+}
+.App-mySection{
+  background-image: url(/src/components/img/1218911.jpg);
+  background-position: 50%;
+  background-size: cover;
+  display: table;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: Consolas;
+  min-height: 60vh;
+  border: 2px solid black;
+  margin-bottom: 1px;
+}
+.myPhoto{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+}
+.myPhoto img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 2px solid aqua;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+}
+.linkGithub{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 60px;
+  color: white;
+}
+.App-Skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #180540;
+  color: white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 2px solid black;
+  margin-bottom: 1px;
+}
+.skillsByNoah{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 60px;
+}
+.skillsByNoah svg{
+  margin: 5px;
+}
