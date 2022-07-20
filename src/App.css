@@ -30,7 +30,6 @@ body{
   background-color: #180540;
   border: 2px solid black;
 }
-/*No se porque cojones en el flex de arriba no lo quiso hacer con el parrafo*/
 .App-footer p{
   display: flex;
   justify-content:center;
