@@ -68,8 +68,11 @@ body{
 }
 .hello{
   margin-left: 15px ;
+  margin-right: 15px;
+  border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.46);
 }
+
 .myPhoto{
   display:flex ;
   align-items: center;
@@ -111,6 +114,9 @@ body{
   color: white;
   margin-top: 1px;
   margin-bottom: 1px;
+}
+.App-Skills p{
+  margin-left: 15px;
 }
 .skillsByNoah{
   display: flex;
