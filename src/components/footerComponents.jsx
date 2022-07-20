@@ -53,7 +53,7 @@ export const _footerComponents = () => {
           </a>
         </div>
         <div className="developer">
-          <p>Powerd By Using </p>
+          <p>Powerd By</p>
           <FontAwesomeIcon icon={faReact} />
         </div>
       </footer>
