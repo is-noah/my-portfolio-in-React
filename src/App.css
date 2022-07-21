@@ -18,6 +18,7 @@ body{
   margin-left: 15px;
   font-size: 2rem;
   color: aqua;
+  height: 30px;
 }
 .App-footer{
   display: flex;
@@ -75,7 +76,7 @@ body{
   width: 100%;
   color: white;
   font-family: Consolas;
-  min-height: 60vh;
+  min-height: 35vh;
   border: 2px solid black;
 }
 .hello{
@@ -97,6 +98,7 @@ body{
   border: 2px solid aqua;
   cursor: pointer;
   transition: ease-out 0.5s;
+  margin-top: 15px;
 }
 .myPhoto img:hover{
   width: 175px;
@@ -126,6 +128,43 @@ body{
   color: white;
   margin-top: 1px;
   margin-bottom: 1px;
+
+}
+.iAm{
+  width: 550px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.325);
+  border-radius: 15px;
+  border: 0.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin-bottom: 20px;
+  transition: ease 0.8s;
+}
+.iAm:hover{
+  transition: ease 0.8s;
+  background-color: rgba(0, 255, 255, 0.474);
+  cursor: pointer;
+}
+@media screen and (max-width:580px) {
+  .iAm{
+    width:350px;
+  }
+  .myPhoto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+  .myPhoto img:hover{
+    width: 120px;
+    height: 120px;
+  }
+}
+.iAm p{
+
+  margin-right: 10px;
 }
 .App-Skills p{
   margin-left: 15px;
@@ -140,4 +179,26 @@ body{
 .skillsByNoah svg{
   color: white;
   margin: 5px;
+}
+.App-services{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  color: black;
+  background-color: #180540;
+  color: white;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-top: 2px solid black;
+
+}
+.xxx{
+  margin-left: 10px;
+  margin-right: 8px;
+}
+.xxx svg{
+  font-size: 30px;
+  margin-right: 8px;
+  margin-left: 8px;
 }

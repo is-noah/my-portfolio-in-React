@@ -13,10 +13,12 @@ export const _mySkillsComponents = () => {
       <h2>
         Skills:
       </h2>
+      <div className="iAm">
       <p>
         Hello My name is Andriel Noa Lores and I am a web developer, we build
         web applications with quality and unique styles.
       </p>
+      </div>
       <div className="skillsByNoah">
         <FontAwesomeIcon icon={faReact}/>
         <FontAwesomeIcon icon={faNodeJs} />
