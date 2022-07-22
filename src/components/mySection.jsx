@@ -3,9 +3,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import IMG_20220417_174004_013 from "./img/IMG_20220417_174004_013.jpg"
-
+import Zoom from 'react-reveal/Zoom';
 export const _mySection = () => {
   return (
+    <Zoom top>
     <div className="App-mySection">
       <div className="myPhoto">
         <img src={IMG_20220417_174004_013}/>
@@ -20,6 +21,7 @@ export const _mySection = () => {
         <FontAwesomeIcon icon={faGithub} /></a>
       </div>
     </div>
+    </Zoom>
   );
 };
   
