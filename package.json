@@ -39,5 +39,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "VERSION DE MI PORTAFOLIO USANDO React.js",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/is-noah/my-portfolio-in-React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/is-noah/my-portfolio-in-React/issues"
+  },
+  "homepage": "https://github.com/is-noah/my-portfolio-in-React#readme"
 }
