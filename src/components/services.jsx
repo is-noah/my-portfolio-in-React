@@ -4,6 +4,7 @@ import {
   faFolderTree,
   faGaugeHigh,
   faUserGear,
+  faMobileAndroid,
 } from "@fortawesome/free-solid-svg-icons";
 import { faJsSquare, faReact } from "@fortawesome/free-brands-svg-icons";
 //import Rotate from 'react-reveal/Rotate';
@@ -33,8 +34,7 @@ export const _services = () => {
             3.
             <FontAwesomeIcon icon={faJsSquare} />
             Add the interactive features of the website through the programming
-            language called JavaScript. Create scripts and commands for each
-            element on the site.
+            . Create scripts and commands for each element on the site.
           </p>
         </Flip>
         <Flip bottom>
@@ -50,6 +50,11 @@ export const _services = () => {
             <FontAwesomeIcon icon={faGaugeHigh} />
             Implementation of improvements and optimizations for the positioning
             of the website technical SEO and on page.
+          </p>
+          <p>
+            6.
+            <FontAwesomeIcon icon={faMobileAndroid} />
+            Web-App Full-Responisve.
           </p>
         </Flip>
       </div>
