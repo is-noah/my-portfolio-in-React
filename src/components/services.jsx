@@ -54,7 +54,7 @@ export const _services = () => {
           <p>
             6.
             <FontAwesomeIcon icon={faMobileAndroid} />
-            Web-App Full-Responisve.
+            Web-App Full-Responsive.
           </p>
         </Flip>
       </div>
